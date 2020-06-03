@@ -11,5 +11,4 @@ export const SerachBox = ({ placeholder, handleChange }) =>(
     placeholder='Search Monsters'
     onChange={handleChange}
     />
-);
-
+)
