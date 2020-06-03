@@ -6,9 +6,10 @@ import './search-box.styles.css';
 
 export const SerachBox = ({ placeholder, handleChange }) =>(
     <input 
-    className='search'
+    className='search-box'
     type='search' 
-    placeholder={placeholder}
+    placeholder='Search Monsters'
     onChange={handleChange}
     />
 );
+
